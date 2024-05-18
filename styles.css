@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+header nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Home Page Styles */
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.intro .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro .btn:hover {
+    background-color: #555;
+}
+
+/* Job Listings Page Styles */
+.job-listings ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.job-listings li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listings a {
+    text-decoration: none;
+    color: #333;
+}
+
+.job-listings a:hover h3 {
+    color: #555;
+}
+
+.job-listings h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.job-listings p {
+    margin: 0;
+    color: #666;
+}
+
+/* Job Details Page Styles */
+.job-details h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job-details p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.job-details .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.job-details .btn:hover {
+    background-color: #555;
+}
+
+/* Employer Dashboard Styles */
+.dashboard h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-nav a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dashboard-nav a:hover {
+    background-color: #555;
+}
+
+/* Account Management Page Styles */
+.account-management h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.account-management form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.account-management label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.account-management input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.account-management button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-management button:hover {
+    background-color: #555;
+}
+
+/* Job Posting Page Styles */
+.job-posting h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job-posting form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.job-posting label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job-posting input,
+.job-posting textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-posting button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-posting button:hover {
+    background-color: #555;
+}
+/* Job Application Page Styles */
+.job-application h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job-application form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.job-application label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.job-application input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-application button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-application button:hover {
+    background-color: #555;
+}

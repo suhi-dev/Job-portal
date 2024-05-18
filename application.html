@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Application</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="job-listings.html">Job Listings</a>
+            <a href="employer dashboard.html">Employer Dashboard</a>
+        </nav>
+    </header>
+    <main>
+        <section class="job-application">
+            <h2>Apply for a Job</h2>
+            <form action="/submit-application" method="POST" enctype="multipart/form-data">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+   
+</body>
+</html>
